@@ -46,7 +46,7 @@ compliant as possible. Fix Code Style quickly by running `vendor/bin/php-cs-fixe
 To test your code before pushing, run the unit test suite.
 
 ```bash
-phpunit
+vendor/bin/phpunit
 ```
 
 ## License
