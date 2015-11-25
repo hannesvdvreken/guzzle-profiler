@@ -37,7 +37,7 @@ And you are done!
 
 Feel free to make a pull request. Please try to be as
 [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
-compliant as possible. Give a good description of what is supposed to be added/changed/removed/fixed.
+compliant as possible. Fix Code Style quickly by running `vendor/bin/php-cs-fixer fix`. Give a good description of what is supposed to be added/changed/removed/fixed.
 
 ### Testing
 
@@ -49,4 +49,4 @@ phpunit
 
 ## License
 
-[MIT](license)
+[MIT](LICENSE)
