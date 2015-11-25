@@ -7,7 +7,7 @@
             "email": "vandevreken.hannes@gmail.com"
         }
     ],
-    "keywords": ["log", "guzzle", "events", "middleware", "profiling", "profiler", "debug"],
+    "keywords": ["log", "guzzle", "http", "middleware", "profiling", "profiler", "timeline", "debug"],
     "license": "MIT",
     "require": {
         "php": ">=5.5.0",
