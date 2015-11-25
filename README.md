@@ -2,6 +2,8 @@
 
 [![Build Status](http://img.shields.io/travis/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://travis-ci.org/hannesvdvreken/guzzle-profiler)
 [![Latest Stable Version](http://img.shields.io/packagist/v/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
+[![Code Quality](https://img.shields.io/scrutinizer/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
 [![Total Downloads](http://img.shields.io/packagist/dt/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
 [![License](http://img.shields.io/packagist/l/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](#license)
 
