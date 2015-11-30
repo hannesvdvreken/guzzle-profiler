@@ -9,6 +9,13 @@
 
 Guzzle Middleware to log made HTTP requests to a timeline for debugging.
 
+## Adapter
+
+A couple of adapters are available:
+
+- [`hannesvdvreken/guzzle-debugbar`](https://github.com/hannesvdvreken/guzzle-debugbar)
+- [`hannesvdvreken/guzzle-clockwork`](https://github.com/hannesvdvreken/guzzle-clockwork)
+
 ## Usage
 
 ```php
@@ -33,7 +40,7 @@ $stack->unshift($middleware);
 $client = new GuzzleHttp\Client(['handler' => $stack]);
 ```
 
-And you are done!
+And you are done! All requests will now be logged to whatever profiler you wrapped.
 
 ## Contributing
 
