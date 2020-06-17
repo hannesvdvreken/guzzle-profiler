@@ -10,7 +10,7 @@
     "keywords": ["log", "guzzle", "http", "middleware", "profiling", "profiler", "timeline", "debug"],
     "license": "MIT",
     "require": {
-        "php": ">=5.5.0,<7.4.0",
+        "php": ">=5.5.0",
         "guzzlehttp/guzzle": "^6.0|^7.0"
     },
     "require-dev": {
