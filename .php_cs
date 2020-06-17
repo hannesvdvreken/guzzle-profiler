@@ -12,6 +12,7 @@ return PhpCsFixer\Config::create()
         'strict_param' => true,
         'php_unit_internal_class' => false,
         'php_unit_test_class_requires_covers' => false,
+        'no_superfluous_phpdoc_tags' => false,
         'function_declaration' => [
             'closure_function_spacing' => 'none',
         ],
