@@ -4,9 +4,9 @@ namespace GuzzleHttp\Profiling\Unit;
 use GuzzleHttp\Profiling\Unit\Stubs\DescriptionMaker;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class DescriptionMakerTest extends PHPUnit_Framework_TestCase
+class DescriptionMakerTest extends TestCase
 {
     public function testWithResponse()
     {

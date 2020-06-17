@@ -1,7 +1,6 @@
 <?php
 namespace GuzzleHttp\Profiling\Unit;
 
-use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\TransferException;
 use GuzzleHttp\Profiling\Middleware;
@@ -9,15 +8,15 @@ use GuzzleHttp\Profiling\Profiler;
 use GuzzleHttp\Promise\Promise;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 
-class MiddlewareTest extends PHPUnit_Framework_TestCase
+class MiddlewareTest extends TestCase
 {
     public function testMiddlewareReturnsCallable()
     {
         // Arrange
-        $profiler = $this->getMock(Profiler::class);
+        $profiler = $this->createMock(Profiler::class);
         $middleware = new Middleware($profiler);
 
         $called = false;
@@ -39,7 +38,7 @@ class MiddlewareTest extends PHPUnit_Framework_TestCase
     public function testNextMiddlewareIsCalled()
     {
         // Arrange
-        $profiler = $this->getMock(Profiler::class);
+        $profiler = $this->createMock(Profiler::class);
         $middleware = new Middleware($profiler);
         $options = [
             'random' => 'data',
