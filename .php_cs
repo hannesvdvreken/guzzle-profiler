@@ -10,5 +10,8 @@ return PhpCsFixer\Config::create()
         'no_php4_constructor' => true,
         'strict_comparison' => true,
         'strict_param' => true,
+        'function_declaration' => [
+            'closure_function_spacing' => 'none',
+        ],
     ])
     ->setFinder($finder);

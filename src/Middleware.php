@@ -31,17 +31,17 @@ class Middleware
      */
     public function __invoke(callable $handler)
     {
-        return function (RequestInterface $request, array $options) use ($handler) {
+        return function(RequestInterface $request, array $options) use ($handler) {
             // Set starting time.
             $start = microtime(true);
 
             return $handler($request, $options)
-                ->then(function (ResponseInterface $response) use ($start, $request) {
+                ->then(function(ResponseInterface $response) use ($start, $request) {
                     // After
                     $this->profiler->add($start, microtime(true), $request, $response);
 
                     return $response;
-                }, function (GuzzleException $exception) use ($start, $request) {
+                }, function(GuzzleException $exception) use ($start, $request) {
                     $response = $exception instanceof RequestException ? $exception->getResponse() : null;
                     $this->profiler->add($start, microtime(true), $request, $response);
 

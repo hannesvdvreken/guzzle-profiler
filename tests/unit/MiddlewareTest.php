@@ -50,10 +50,10 @@ class MiddlewareTest extends TestCase
             ->expects($this->once())
             ->method('then')
             ->with(
-                $this->callback(function ($callback) {
+                $this->callback(function($callback) {
                     return true;
                 }),
-                $this->callback(function ($callback) {
+                $this->callback(function($callback) {
                     return true;
                 })
             )->willReturn($promise);
@@ -108,12 +108,12 @@ class MiddlewareTest extends TestCase
             ->expects($this->once())
             ->method('then')
             ->with(
-                $this->callback(function ($callback) use ($response) {
+                $this->callback(function($callback) use ($response) {
                     $callback($response);
 
                     return true;
                 }),
-                $this->callback(function ($callback) {
+                $this->callback(function($callback) {
                     return true;
                 })
             )->willReturn($promise);
@@ -164,10 +164,10 @@ class MiddlewareTest extends TestCase
             ->expects($this->once())
             ->method('then')
             ->with(
-                $this->callback(function ($callback) {
+                $this->callback(function($callback) {
                     return true;
                 }),
-                $this->callback(function ($callback) use ($exception) {
+                $this->callback(function($callback) use ($exception) {
                     try {
                         $callback($exception);
                     } catch (\Exception $thrownException) {
@@ -225,10 +225,10 @@ class MiddlewareTest extends TestCase
             ->expects($this->once())
             ->method('then')
             ->with(
-                $this->callback(function ($callback) {
+                $this->callback(function($callback) {
                     return true;
                 }),
-                $this->callback(function ($callback) use ($exception) {
+                $this->callback(function($callback) use ($exception) {
                     try {
                         $callback($exception);
                     } catch (\Exception $thrownException) {
