@@ -84,7 +84,8 @@ class MiddlewareTest extends TestCase
         $this->assertEquals($promise, $returnedPromise);
     }
 
-    function testFulfilledCallback() {
+    public function testFulfilledCallback()
+    {
         // Arrange
         $profiler = $this->getMockBuilder(Profiler::class)->getMock();
         $middleware = new Middleware($profiler);
@@ -109,6 +110,7 @@ class MiddlewareTest extends TestCase
             ->with(
                 $this->callback(function ($callback) use ($response) {
                     $callback($response);
+
                     return true;
                 }),
                 $this->callback(function ($callback) {
@@ -137,7 +139,8 @@ class MiddlewareTest extends TestCase
         $this->assertEquals($promise, $returnedPromise);
     }
 
-    function testRejectionCallbackNonRequestException() {
+    public function testRejectionCallbackNonRequestException()
+    {
         // Arrange
         $profiler = $this->getMockBuilder(Profiler::class)->getMock();
         $middleware = new Middleware($profiler);
@@ -196,7 +199,8 @@ class MiddlewareTest extends TestCase
         $this->assertEquals($promise, $returnedPromise);
     }
 
-    function testRejectionCallbackRequestException() {
+    public function testRejectionCallbackRequestException()
+    {
         // Arrange
         $profiler = $this->getMockBuilder(Profiler::class)->getMock();
         $middleware = new Middleware($profiler);
