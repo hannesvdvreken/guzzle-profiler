@@ -13,7 +13,7 @@ trait DescriptionMaker
      *
      * @return string
      */
-    protected function describe(RequestInterface $request, ResponseInterface $response = null)
+    protected function describe(RequestInterface $request, ResponseInterface $response = null): string
     {
         if (!$response) {
             return sprintf('%s %s failed', $request->getMethod(), $request->getUri());
