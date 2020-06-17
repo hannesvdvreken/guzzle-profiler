@@ -31,7 +31,7 @@ class MiddlewareTest extends TestCase
         $function = $middleware($handler);
 
         // Assert
-        $this->assertInternalType('callable', $function);
+        $this->assertTrue(is_callable($function));
         $this->assertFalse($called);
     }
 

@@ -14,8 +14,8 @@
         "guzzlehttp/guzzle": "^6.0|^7.0"
     },
     "require-dev": {
-        "fabpot/php-cs-fixer": "^1.10",
-        "phpunit/phpunit": "^5.6.3"
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "phpunit/phpunit": "^5.6.3||^8.2.3"
     },
     "autoload": {
         "psr-4": {
