@@ -1,4 +1,5 @@
 <?php
+
 namespace GuzzleHttp\Profiling;
 
 use Psr\Http\Message\RequestInterface;

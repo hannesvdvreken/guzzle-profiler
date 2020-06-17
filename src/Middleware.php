@@ -1,4 +1,5 @@
 <?php
+
 namespace GuzzleHttp\Profiling;
 
 use GuzzleHttp\Exception\GuzzleException;

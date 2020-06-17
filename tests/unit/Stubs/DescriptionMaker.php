@@ -1,4 +1,5 @@
 <?php
+
 namespace GuzzleHttp\Profiling\Unit\Stubs;
 
 use GuzzleHttp\Profiling\DescriptionMaker as DescriptionMakerTrait;
