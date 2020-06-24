@@ -1,11 +1,11 @@
 # [Guzzle client](http://docs.guzzlephp.org/en/latest/) middleware to profile HTTP requests.
 
-[![Build Status](http://img.shields.io/travis/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://travis-ci.org/hannesvdvreken/guzzle-profiler)
-[![Latest Stable Version](http://img.shields.io/packagist/v/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
+[![Build Status](https://img.shields.io/travis/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://travis-ci.org/hannesvdvreken/guzzle-profiler)
+[![Latest Stable Version](https://img.shields.io/packagist/v/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
 [![Code Quality](https://img.shields.io/scrutinizer/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
-[![Total Downloads](http://img.shields.io/packagist/dt/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
-[![License](http://img.shields.io/packagist/l/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](#license)
+[![Total Downloads](https://img.shields.io/packagist/dt/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
+[![License](https://img.shields.io/github/license/hannesvdvreken/guzzle-profiler?style=flat-square)](#license)
 
 Guzzle Middleware to log made HTTP requests to a timeline for debugging.
 
