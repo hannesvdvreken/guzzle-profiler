@@ -5,7 +5,7 @@
 [![Code Quality](https://img.shields.io/scrutinizer/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
 [![Total Downloads](https://img.shields.io/packagist/dt/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](#license)
+[![License](https://img.shields.io/github/license/hannesvdvreken/guzzle-profiler?style=flat-square)](#license)
 
 Guzzle Middleware to log made HTTP requests to a timeline for debugging.
 
