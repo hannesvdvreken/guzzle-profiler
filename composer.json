@@ -27,6 +27,12 @@
             "GuzzleHttp\\Profiling\\Unit\\": "tests/unit/"
         }
     },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/hannesvdvreken"
+        }
+    ],
     "config": {
         "sort-packages": true
     },
