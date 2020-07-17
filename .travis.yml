@@ -1,6 +1,8 @@
 language: php
+os: linux
+dist: xenial
 
-matrix:
+jobs:
   include:
     - php: 7.2
       env: VERSIONS=--prefer-lowest
