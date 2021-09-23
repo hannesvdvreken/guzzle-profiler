@@ -2,9 +2,9 @@
 
 namespace GuzzleHttp\Profiling;
 
+use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Promise\PromiseInterface;
-use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
@@ -42,7 +42,7 @@ class Middleware
                     $this->profiler->add($start, microtime(true), $request, $response);
 
                     return $response;
-                }, function(ClientExceptionInterface $exception) use ($start, $request) {
+                }, function(GuzzleException $exception) use ($start, $request) {
                     $response = $exception instanceof RequestException ? $exception->getResponse() : null;
                     $this->profiler->add($start, microtime(true), $request, $response);
 
