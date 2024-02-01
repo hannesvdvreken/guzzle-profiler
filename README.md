@@ -1,5 +1,7 @@
 # [Guzzle client](http://docs.guzzlephp.org/en/latest/) middleware to profile HTTP requests.
 
+⚠️ This project is up for adoption. Get in touch if you're interested in actively maintaining 3 closely related packages.
+
 [![Build Status](https://img.shields.io/travis/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://travis-ci.org/hannesvdvreken/guzzle-profiler)
 [![Latest Stable Version](https://img.shields.io/packagist/v/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
 [![Code Quality](https://img.shields.io/scrutinizer/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
