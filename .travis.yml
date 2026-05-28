@@ -1,6 +1,6 @@
 language: php
 os: linux
-dist: xenial
+dist: noble
 
 jobs:
   include:
