@@ -2,7 +2,7 @@
 
 ⚠️ This project is up for adoption. Get in touch if you're interested in actively maintaining 3 closely related packages.
 
-[![Build Status](https://img.shields.io/travis/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://travis-ci.org/hannesvdvreken/guzzle-profiler)
+[![Build Status](https://img.shields.io/travis/com/hannesvdvreken/guzzle-profiler/2.x?style=flat-square)](https://app.travis-ci.com/github/hannesvdvreken/guzzle-profiler/)
 [![Latest Stable Version](https://img.shields.io/packagist/v/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://packagist.org/packages/hannesvdvreken/guzzle-profiler)
 [![Code Quality](https://img.shields.io/scrutinizer/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hannesvdvreken/guzzle-profiler.svg?style=flat-square)](https://scrutinizer-ci.com/g/hannesvdvreken/guzzle-profiler/)
